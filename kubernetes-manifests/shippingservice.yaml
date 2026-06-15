@@ -40,7 +40,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: shippingservice
+        image: us-central1-docker.pkg.dev/google-samples/microservices-demo/shippingservice:v0.8.0
         ports:
         - containerPort: 50051
         env:

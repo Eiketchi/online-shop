@@ -39,7 +39,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: redis:alpine
+        image: us-central1-docker.pkg.dev/google-samples/microservices-demo/redis:alpine:v0.8.0
         ports:
         - containerPort: 6379
         readinessProbe:
